@@ -39,3 +39,81 @@ body {
     width: 160px;
     border-radius: 50%;
 }
+
+.container {
+    width: 1200px;
+    margin: 30px auto;
+    font-weight: 300;
+}
+
+.container h1 {
+    font-weight: 400;
+}
+
+.food-container {
+    display: flex;
+    gap: 20px;
+}
+
+.food-card {
+    margin: 30px;
+    width: 320px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.food-card:hover {
+     border: 1px solid rgb(228, 224, 224);
+     cursor: pointer;
+}
+
+.food-card-img {
+    height: 240px;
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.food-card-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-heading {
+    font-weight: 500;
+}
+
+.small {
+    margin-top: 6px;
+    font-size: 13px;
+    color: rgb(132, 129, 129);
+}
+
+.ratings {
+    display: inline;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px ;
+    border-radius: 5px; 
+    margin-left: 50px;
+}
+
+.time {
+    margin-left: 50px;
+}
+
+.safety {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid lightgray;
+    margin-top: 10px; 
+}
+
+.s-img{
+    width: 50px;
+    height: 20px;
+}
+
